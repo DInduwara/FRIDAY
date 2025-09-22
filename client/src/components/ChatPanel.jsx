@@ -13,7 +13,7 @@ export default function ChatPanel({ setAgentSteps }) {
     setInput("");
 
     try {
-      const res = await fetch("http://localhost:11000/prompt", {
+      const res = await fetch("http://localhost:5000/prompt", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: userInput }),
