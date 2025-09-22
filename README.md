@@ -4,6 +4,7 @@ FRIDAY is a modular AI assistant framework with a Python backend for AI agents a
 It is designed to experiment with intelligent agents, automate tasks, and provide a simple web interface for testing and extending features.
 
 
+
 📂 Project Structure
 
 FRIDAY/
@@ -22,6 +23,7 @@ FRIDAY/
 └── tools/             # Utilities and helper functions
 
 
+
 ✨ Features
 
 🧩 Modular Agents – Build AI agents in agents/.
@@ -35,6 +37,7 @@ FRIDAY/
 🛠️ Extendable Tools – Add reusable utilities inside tools/.
 
 
+
 🛠️ Tech Stack
 
 Backend: Python 3
@@ -42,6 +45,7 @@ Backend: Python 3
 Frontend: React, JavaScript, Tailwind.css
 
 Core Libraries: Defined in requirements.txt
+
 
 
 ⚙️ Setup & Installation
@@ -70,6 +74,7 @@ cd client
 npm install
 npm run dev
 By default, it starts a local server (e.g.,  http://localhost:5173/).
+
 
 
 ▶️ Usage
